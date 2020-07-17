@@ -1,9 +1,14 @@
 body {
+    background-image: url(../images/backpg.png);
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-color: rgba(220, 35, 80, 0.7);
     font-family: 'Sora', sans-serif;
+    color: white;
 }
 
 h1 {
-    color: #303030;
+    color: #55ff55;
     text-align: center;
     font-style: italic;
 }
@@ -18,4 +23,17 @@ p {
     text-align: justify;
     font-size: 14px;
     line-height: 23px;
+}
+
+.destaque {
+    font-size: 22px;
+    color: #cccccc;
+}
+
+a {
+    color: #cccccc;
+}
+
+.divcenter {
+    text-align: center;
 }
