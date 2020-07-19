@@ -1,0 +1,86 @@
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: aquamarine;
+}
+
+header {
+    margin: 20px auto;
+    padding: 20px 0;
+    width: 960px;
+    background-color: brown;
+    position: sticky;
+    z-index: 2;
+    top: 0;
+    
+}
+
+.menu {
+    margin: 0 60px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 40px;
+}
+
+.container {
+    margin: auto;
+    width: 960px;
+}
+
+.caixa {
+    text-align: center;
+    background-color: rgb(34, 64, 82);
+}
+
+.produtos {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.img {
+    width: 300px;
+    margin: 0 auto -115px auto;
+
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    margin: 10px auto;
+}
+
+.nome {
+    background-color: rgba(00, 00, 00, 0.5);
+    color: #fff;
+    font-weight: bold;
+    font-style: italic;
+    margin: auto;
+    position: relative;
+    top: -260px;
+    
+}
+
+.etiqueta img {
+    width: 70px;
+    height: 70px;
+    position: relative;
+    z-index: 1;
+}
+
+.vinte img {
+    top: -330px;
+    left: 130px;
+}
+
+.new img {
+    top: -340px;
+    left: 128px;
+}
+
+.free img {
+    top: -345px;
+    left: 128px;
+}
