@@ -42,7 +42,7 @@ a {
 
 .img {
     width: 300px;
-    margin: 0 auto -115px auto;
+    margin: 0 auto -150px auto;
 
 }
 
@@ -59,7 +59,7 @@ img {
     font-style: italic;
     margin: auto;
     position: relative;
-    top: -260px;
+    top: -280px;
     
 }
 
@@ -83,4 +83,19 @@ img {
 .free img {
     top: -345px;
     left: 128px;
+}
+
+.vermais {
+    background-color: red;
+    width: 130px;
+    padding: 10px 0;
+    margin: auto;
+    position: relative;
+    z-index: 1;
+    top: -190px;
+}
+
+.vermais a {
+    margin: auto;
+    text-align: center;
 }
