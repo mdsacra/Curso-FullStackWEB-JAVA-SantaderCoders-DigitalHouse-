@@ -25,10 +25,6 @@ p {
     line-height: 23px;
 }
 
-.destaque {
-    font-size: 22px;
-    color: #cccccc;
-}
 
 a {
     color: #cccccc;
@@ -49,10 +45,12 @@ mark {
 
 strong {
     text-decoration: overline underline;
+    font-size: 1.2em;
 }
 
 em {
     font-style: oblique;
+    font-size: 1.3em;
 }
 
 input:focus, textarea:focus {
@@ -60,7 +58,38 @@ input:focus, textarea:focus {
     color: #cccccc;
 }
 
+.hobbiesimg{
+    width: 300px; 
+}
 .hobbiesimg:hover{
     border-radius: 50%;
 
+}
+
+.container_b {
+    display: inline-block;
+    width: 300px;
+    position: relative;
+    top: -750px;
+    
+}
+
+.container_c {
+    display: inline-block;
+    
+}
+
+header {
+    border-bottom: solid 2px #cccccc;
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 1.2em;
+    text-decoration: underline;
+}
+
+.linkdir {
+    text-align: right;
+    margin-bottom: 5px;
 }
