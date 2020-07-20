@@ -1,5 +1,5 @@
 body {
-    background-image: url(../images/backpg.png);
+    background-image: url(../images/backpg.jpg);
     background-attachment: fixed;
     background-repeat: repeat;
     background-color: rgba(220, 35, 80, 0.7);
@@ -34,6 +34,33 @@ a {
     color: #cccccc;
 }
 
+a:hover {
+    color: red;
+}
+
 .divcenter {
     text-align: center;
+}
+
+mark {
+    background-color: #cccccc;
+    color: #000055;
+}
+
+strong {
+    text-decoration: overline underline;
+}
+
+em {
+    font-style: oblique;
+}
+
+input:focus, textarea:focus {
+    background-color: black;
+    color: #cccccc;
+}
+
+.hobbiesimg:hover{
+    border-radius: 50%;
+
 }
