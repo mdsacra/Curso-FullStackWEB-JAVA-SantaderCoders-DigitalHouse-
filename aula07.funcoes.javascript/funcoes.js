@@ -7,7 +7,10 @@
 //     }
 // }
 
-// Números primos
+
+/* -------------------- */
+// // Números primos
+
 // var numeroPrimo = (n) => {
 //     var um = 0;
 //     for (x = n-1; x > 0; x--){
@@ -24,6 +27,8 @@
 
 // numeroPrimo(99991);
 
+
+/* -------------------- */
 // // Contagem Ano Novo c/ callback
 // function anoNovo(callback){
 //     setTimeout(function(){
@@ -34,28 +39,79 @@
 
 
 // function contagem(){
-//     var x = 10
-//     while(x > 0){
-//         setTimeout(function(){
-//             console.log(x);
-//             x--;
-//         }, 1000);
+    
+//     for (x = 10; x > 0; x--) {
+//         console.log(x);
 //     }
+//     // for (x = 10; x > 0; x--){
+//     //    setTimeout(() => {
+//     //        console.log(x)
+//     //    }, 1000);
+//     // }
 // }
 
 // anoNovo(contagem);
 
+
+/* -------------------- */
+// // Ano-Novo com Promises
+
+// var anoNovo = new Promise((resolve, reject) => {
+//     setTimeout(() => {
+//         resolve("Feliz Ano Novo!");
+//     }, 10000);
+// });
+
+// var contagem = new Promise((resolve, reject) => {
+//     for(x = 10; x > 0; x--){
+//         resolve(x);
+//     }
+// })
+
+// contagem.then(function(res) {return console.log(res)})
+//         .then(function(res) {return anoNovo})
+//         .then(function(res) {return console.log(res)});
+
+
+/* -------------------- */
+// // Ano Novo c; async-await
+
+// function contagem(){
+//     for (x = 10; x > 0; x--) {
+//         console.log(x);
+//     }
+// }
+
+// function anoNovo(){
+//     console.log("Feliz Ano Novo!");
+// }
+
+// var asyncFunction = async () => {
+//     try {
+//         var firstPart = await contagem();
+//         var secondPart = await anoNovo();
+        
+//     }
+//     catch(err){
+//         console.log(err);
+//     }
+// }
+
+// asyncFunction();
+
+
+/* -------------------- */
 // //Imprimir notas maiores
 
 // var notas = [5.3, 4.7, 8.5, 7.1, 6.4, 9.2, 9.8, 5.5, 7.4, 7.0];
 
-// notas.forEach(function(value, index) {
-//     if (value >= 7){
-//         console.log(value);
-//     }
-// });
+// console.log(notas.filter(function(value, index) {
+//     return value >= 7;
+// }));
 
-// // Compras
+
+/* -------------------- */
+// Compras
 
 // var compras = [
 //     {
@@ -74,6 +130,9 @@
 //     }]
 
 // function totalCompra() {
+//     // compras.reduce(function(value, value){
+//     //     return value.valor + value.valor;
+//     // })
 //     valorTotal = 0;
 //     compras.forEach(function(value, index){
 //         valorTotal += value.valor;
@@ -83,6 +142,8 @@
 
 // totalCompra();
 
+
+/* -------------------- */
 // // disciplina para os alunos
 // var alunos = [
 //     {
