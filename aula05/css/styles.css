@@ -20,9 +20,7 @@
     background-color: #555;
     padding: 0 10px;
     font-size: 12px;
-    line-height: 13px;
-    
-    
+    line-height: 13px;    
 }
 
 .nav-link {
@@ -50,5 +48,4 @@
     border-top-right-radius: 25px;
     line-height: 4em;
     background-color: #409168;
-    
 }
