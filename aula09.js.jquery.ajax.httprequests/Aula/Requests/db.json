@@ -1,0 +1,49 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Andrew",
+      "location": "USA"
+    },
+    {
+      "id": 2,
+      "name": "Julio",
+      "location": "Canadá"
+    },
+    {
+      "id": "3",
+      "name": "Rafael",
+      "location": "Brasil"
+    },
+    {
+      "id": "4",
+      "name": "Matheus",
+      "location": "Botswana"
+    },
+    {
+      "id": "5",
+      "name": "Luciana",
+      "location": "Gana"
+    },
+    {
+      "id": "6",
+      "name": "Ramir-Masef",
+      "location": "Arábia Saudita"
+    },
+    {
+      "id": "7",
+      "name": "Olger Disbassëff",
+      "location": "Holanda"
+    },
+    {
+      "id": "8",
+      "name": "Joarisnei",
+      "location": "Brasil"
+    },
+    {
+      "id": "9",
+      "name": "Aline",
+      "location": "Austrália"
+    }
+  ]
+}

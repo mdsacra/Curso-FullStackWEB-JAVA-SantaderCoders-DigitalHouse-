@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<script src="jquery-2.2.1.js"></script>
+	
+	<title>Document</title>
+	<script>
+
+		$(document).ready(function(){
+			$("#div1").click(function(){
+				alert("Elemento clicado!");
+			});
+			$("#campo1").keydown(function(){
+				alert("Botão pressionado!");
+			});
+			$("#campo1").focus(function(){
+				console.log("Ganhou foco!");
+			});
+			$("#campo1").blur(function(){
+				console.log("Perdeu foco!");
+			});
+			$(".campo2").change(function(){
+				alert("Trocou o elemento.");
+			});
+		});
+
+		//click dblclick mousedown mouseover mouseout
+		//keydown keypress keyup
+		
+	</script>
+</head>
+<body>
+
+<input type="text" id="campo1">
+<div id="div1"></div>
+
+<select name="" id="" class="campo2">
+	<option value="1">Primeira opção</option>
+	<option value="2">Segunda opção</option>
+</select>
+	
+</body>
+</html>
